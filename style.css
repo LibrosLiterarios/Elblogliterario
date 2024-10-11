@@ -7,7 +7,8 @@ nav{
 }
 
 img{
-	opacity: 0.85;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 hr{
@@ -52,4 +53,18 @@ button.nav-link.active{color:#000!important;
 	background-color: transparent!important; 
 	border: none!important;
 	
+}
+
+.portadas{
+	opacity: 0.8;
+	width: 200px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.nosotros{
+	width: 1000px;
+	height: 450px;
+	border-radius: 10px;
+	object-fit: cover;
 }
