@@ -65,6 +65,7 @@ button.nav-link.active{color:#000!important;
 .nosotros{
 	width: 1000px;
 	height: 450px;
+	overflow: hidden;
 	border-radius: 10px;
 	object-fit: cover;
 }
