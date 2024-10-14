@@ -69,3 +69,18 @@ button.nav-link.active{color:#000!important;
 	border-radius: 10px;
 	object-fit: cover;
 }
+
+.accordion-button:not(.collapsed) {
+	background-color: transparent!important;
+	box-shadow: none!important;
+}
+
+.accordion-button:focus{
+	box-shadow: none!important;
+}
+.accordion-button:not(.collapsed)::after{
+	margin-top: 600px;
+}
+.accordion-button::after{
+	margin-top: 600px;
+}
